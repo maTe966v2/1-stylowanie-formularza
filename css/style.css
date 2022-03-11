@@ -1,0 +1,49 @@
+form {
+    padding: 20px;
+    width: 50%;
+    background-color: #213b50;
+    color: white;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    width: 250px;
+    background-color: #2b4a64;
+    border: none;
+    color: white;
+}
+
+textarea {
+    height: 100px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border: 1px solid white;
+    background-color: #4e708c;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+p {
+    margin: 0;
+}
+
+input[type="submit"] {
+    margin: 20px 0;
+    width: 80px;
+    height: 40px;
+    background-color: #1ac056;
+    text-transform: uppercase;
+    font-weight: bold;
+}
